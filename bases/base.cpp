@@ -1,3 +1,5 @@
+// The 'iostream' library is included to allow input and output operations.
+// It provides functionalities for reading from and writing to the standard input and output streams.
 #include <iostream>
 using namespace std;
 
