@@ -15,6 +15,8 @@ int main() {
     a = 1;
 //'int main()' is our body that's where we type what we can see in terminal. 
 
+cout << "Hello World!" << endl;
+
 cout <<a<<endl;
 // 'cout' is used to output data to the standard output device (usually the screen).
 
@@ -24,5 +26,6 @@ cout <<a<<endl;
 
  cin.ignore();
  cin.get();
+ // This last two lines are used to pause the program so that the console window doesn't close immediately after displaying the output.
     return 0;
 }
