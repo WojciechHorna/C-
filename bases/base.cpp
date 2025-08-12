@@ -22,12 +22,19 @@ cout << "Hello World!" << endl;
 cout <<a<<endl;
 // 'cout' is used to output data to the standard output device (usually the screen).
 
+int x;
+cin>>x;
+// 'cin' is used to take input from the user.
+
+cout<<x<<endl;
+
+// This will output the value of 'x' that was input by the user.
 
 
  
 
  cin.ignore();
  cin.get();
- // This last two lines are used to pause the program so that the console window doesn't close immediately after displaying the output.
+ // Those last two lines are used to pause the program so that the console window doesn't close immediately after displaying the output.
     return 0;
 }
