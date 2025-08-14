@@ -30,7 +30,7 @@ cout<<x<<endl;
 
 // This will output the value of 'x' that was input by the user.
 
-
+cout<<endl<<endl;
  
 
  cin.ignore();
